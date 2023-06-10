@@ -37,7 +37,8 @@ fetch(endpoint)
                 <h3 class="nombrecancionpodio">${i +1 } - ${data.data[i].title}</h3>
                 <h3 class="nombredescripcionpodio fechapodio">${data.data[i].release_date}</h3>
                 <img src="${data.data[i].cover_medium}" alt="${data.data[i].title}" class = "imgdiscosdetalle">
-                <h3 class="nombredescripcionpodio reproduccionespodio">Cantidad de fanes: ${data.data[i].fans}</h3>
+                <h3 class="nombredescripcionpodio
+                reproduccionespodio">Cantidad de fans: ${data.data[i].fans}</h3>
             </article>
         </a>`
         }
