@@ -81,6 +81,7 @@ fetch(topTrackEndpoint)
         console.log(error);
     })
 
+
 // Buscador
 let buscador = document.querySelector('.buscador')
 let campoBuscar = document.querySelector('#busqueda')
