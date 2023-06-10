@@ -81,3 +81,19 @@ fetch(topTrackEndpoint)
         console.log(error);
     })
 
+// Buscador
+let buscador = document.querySelector('.buscador')
+let campoBuscar = document.querySelector('#busqueda')
+
+buscador.addEventListener('submit', function (e) {
+    e.preventDefault()
+
+
+    if (campoBuscar.value.length == 0) {
+        alert("No puedes enviar el formulario vacio!")
+    } else if (campoBuscar.value.length < 3) {
+        alert("El termino buscado debe tener mas de 3 letras")
+    } else {
+        this.submit();
+    }
+});
