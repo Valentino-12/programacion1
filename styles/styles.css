@@ -1,7 +1,6 @@
 /* Header de los index */
 .headers {
-    width: 100vw;
-    background-color: rgb(36, 35, 35);
+    width: 100%;
     height: 200px;
 }
 
@@ -730,7 +729,7 @@ flex-direction: column;
 @media (max-width: 420px) {
      /* Header y Footer */
     .headers {
-        width: 100vw;
+        width: 100%;
         height: 200px;
     }
     .contenedorheaders {
@@ -760,6 +759,7 @@ flex-direction: column;
         display: flex;
         margin-top: 2.5vh;
         max-width: 60px;
+        margin-left: 20px;
     }
     .buscadorheader {
         width: 225px;
@@ -958,6 +958,167 @@ flex-direction: column;
         margin-left: 0px;
         border-radius: 10px;
         margin-top: 10px;
+    }
+
+    /* Detalle
+    /* Detail Track*/
+    .articulocancion {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .articulocancionhija {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+        background-color: rgba(126, 126, 126, 0.5);
+        align-items: center;
+        border: 3px solid rgb(0, 197, 16);
+        border-radius: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .contenedorfav{
+        width: 330px;
+    }
+
+    /*Detalle Disco */
+    .nombrediscodetalle {
+        font-size: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .contenedoracancionesdisco{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .hijacancionesdisco {
+        border: 3px rgba(128, 0, 128, 1) solid;
+        width: 250px;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgba(8, 8, 8, 0.75);
+        margin-bottom: 40px;
+        margin-top:20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .imgcanciondisco {
+        max-width: 70px;
+        border: 3px rgba(128, 0, 128, 1) solid;
+        margin-top: 0px;
+    }
+    .nombrecanciondiscodetalle{
+        margin-top: 0px;
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .nombrecanciondiscodetalle{
+    margin-top: 40px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    }
+    /* Detail Track */
+
+    .contenedorartista {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .artistanomdesc {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        margin-bottom: 2vh;
+    }
+    .artistaspodioentero {
+        display: flex;
+        flex: wrap;
+        flex-direction: column;
+        margin-top: 2vh !important;
+    }
+    .podioprimero {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+    .podiosegundotercero {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .artistaimg1 {
+        max-width: 335px;
+        height: 335px;
+        margin: 10px;
+        align-self: center;
+        border-radius: 50%;
+    }
+    .podiocuartoquinto {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 0 !important;
+    }
+    .podioprimerlugar {
+        margin-bottom: 2vh;
+        margin-top: 0;
+    }
+    .podiosegundolugar {
+        margin-bottom: 2vh;
+        margin-top: 0;
+        margin-right: 0 !important;
+    }
+    .podiotercerlugar{
+        margin-bottom: 2vh;
+        margin-top: 0;
+        margin-left: 0 !important;
+    }
+    .podiocuartolugar {
+        margin-bottom: 2vh;
+        margin-top: 0;
+        margin-right: 0 !important;
+    }
+    .podioquintolugar {
+        margin-bottom: 2vh;
+        margin-top: 0;
+        margin-left: 0 !important; 
+        
+    }
+    .titulosecciontop {
+        margin-bottom: 0 !important;
+    }
+    .nombrecancionplaylist {
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .cancionhijasearch {
+        width: 30vw;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        height: auto;
     }
     
 }
