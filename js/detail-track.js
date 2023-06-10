@@ -48,7 +48,7 @@ fetch(endpoint)
     let cor = document.querySelector(`.corazon`)
     let fav = document.querySelector('.fav');
     if (favoritos.includes(idPJ)) {
-        fav.innerText = "Quitar de favoritos"
+        fav.innerText = "Quitar de Playlist"
         cor.innerHTML = `<i class="fa-solid fa-heart"></i>`
     };
     
@@ -57,11 +57,11 @@ fetch(endpoint)
         if (favoritos.includes(idPJ)) {
             let indice = favoritos.indexOf(idPJ);
             favoritos.splice(indice, 1);
-            fav.innerText = "Agregar a favoritos";
+            fav.innerText = "Agregar a Playlist";
             cor.innerHTML = `<i class="fa-regular fa-heart"></i>`
         } else {
             favoritos.push(idPJ);
-            fav.innerText = "Quitar de favoritos";
+            fav.innerText = "Quitar de Playlist";
             cor.innerHTML = `<i class="fa-solid fa-heart"></i>`;
         }
     

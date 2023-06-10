@@ -641,6 +641,89 @@ flex-direction: column;
     justify-content: center;
 }
 
+/* Detail Track  */
+
+.articulocancion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.articulocancionhija {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    background-color: rgba(126, 126, 126, 0.5);
+    align-items: center;
+    border: 3px solid rgb(0, 197, 16);
+    border-radius: 10px;
+}
+
+.favoritoscontenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+}
+.contenedorfav{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 380px;
+    background-color: rgba(126, 126, 126, 0.5);
+    align-items: center;
+    border: 3px solid rgb(0, 197, 16);
+    border-radius: 10px;
+}
+.iframespotify {
+    border: 3px solid rgb(0, 197, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   background-color: black;
+   padding: 30px;
+   width: 250px;
+}
+.imgdetailtrack {
+    border: 3px solid rgb(0, 197, 16)
+}
+.iframe {
+    height: 100px;
+    min-width: 300px;
+}
+
+.titulocanciondetalle{
+    text-align: center;
+}
+.verplaylist {
+    text-decoration: none;
+    color: rgb(162, 173, 4);
+}
+
+.hiperresultados{
+    text-decoration: none;
+    color: white;
+}
+.nombrebandacancion {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.detallecanciondisco {
+    margin-top: 0px;
+    text-align: center
+}
+                        
+
+
 
 /* Media Queries */
 
