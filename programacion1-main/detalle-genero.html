@@ -9,32 +9,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
+    <header class="headers">
+        <div class="contenedorheaders">
+            <nav class="paginas">
+                <a href="./generos.html" class="paginasdiv">Géneros</a>
+                <a href="./playlist.html" class="paginasdiv">Playlist</a>
+            </nav>
 
-        
-        <img src="./img/logo.png" alt="logo" class="FotoLogo">
-        <h2>Musictrack</h2>
+            <a href="./index.html" class="logo"><img src="./img/logo.png" alt="logo" class="logo"></a>
 
-        <nav class="navegador">
-            
-            <ul>
-                <li class="tab"><a href="./index.html"><h3>HOME</h3></a></li>   
-                <li class="tab"><a href="./playlist.html"><h3>PLAYLIST</h3></a></li>
-                <li class="tab"><a href="./generos.html"><h3>GÉNEROS</h3></a></li>
-            </ul>
-        </nav>
-        
+            <div class="buscadorheader">
+                <form action="./search-results.html" class="buscador" method="get">
+                    <input id="busqueda" type="text" name="buscar" placeholder="Buscar">
+                    <div>
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </div>
 
-        <nav class="buscador">
-
-            <form class="form" action="./search-results.html" method="get">
-                <input class="busqueda" type="search" name="busqueda" placeholder="Busqueda"/>
-                <button class="submit-button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-
-        </nav>
-
-    </header>
+        </div>
 
     <div class="titulo">
         <h1>Generos</h1>
